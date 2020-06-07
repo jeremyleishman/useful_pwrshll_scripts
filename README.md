@@ -1,9 +1,9 @@
-<h1>useful powershell scripts<h1>
+# Useful Powershell Scripts
 
-useful powershell scripts for working with Microsoft machines via PowerShell
+## Useful powershell scripts for working with Microsoft machines via PowerShell.
 
-random cmdlets and scripts that I've used on various projects
+## This repo contains random cmdlets and scripts that I've used on various projects.
 
-Get-Help Get
-This cmdlet will return a very long list of all the Get- cmdlets
-Just like Get-Help Test will return a list of all Test- cmdlets
+### Get-Help Get
+#### This cmdlet will return a very long list of all the Get- cmdlets
+#### Just like Get-Help Test will return a list of all Test- cmdlets
