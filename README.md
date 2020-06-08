@@ -1,6 +1,6 @@
 # Useful Powershell Scripts
 
-## Useful powershell scripts for working with Microsoft machines via PowerShell.
+## Useful powershell scripts for working with Microsoft servers via PowerShell.
 
 ## This repo contains random cmdlets and scripts that I've used on various projects.
 
