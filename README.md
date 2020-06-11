@@ -15,3 +15,5 @@
 ------------------
 
 `Get-WindowsUpdateLog` to get the log of installed updates
+`Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force` for unrestricted Powershell profile
+
