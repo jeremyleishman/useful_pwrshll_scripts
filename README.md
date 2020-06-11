@@ -14,3 +14,4 @@
 ### Useful one line scripts & cmdlets
 ------------------
 
+`Get-WindowsUpdateLog` to get the log of installed updates
