@@ -1,4 +1,4 @@
-# Useful Powershell Scripts
+# Useful Powershell Scripts for Windows OS
 
 ## Useful powershell scripts for working with Microsoft servers via PowerShell.
 
