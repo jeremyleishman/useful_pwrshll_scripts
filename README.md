@@ -2,7 +2,7 @@
 
 ## Useful powershell scripts for working with Microsoft servers via PowerShell.
 
-## This repo contains random cmdlets and scripts that I've used on various projects.
+## This repo contains random cmdlets and small scripts that I've used on various projects.
 
 ### `Get-Help Get`
 #### This cmdlet will return a very long list of all the Get- cmdlets
