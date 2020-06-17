@@ -11,9 +11,9 @@
 #### Use `Get-History` to pull a list of your PS session (will show as an id)
 #### `Invoke-History -id 24` as an example so you don't have to retype it
 
-------------------
+-------------------------------------
 ### Useful one line scripts & cmdlets
-------------------
+-------------------------------------
 
 #### `Get-WindowsUpdateLog` to get the log of installed updates
 #### `Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force` for unrestricted Powershell profile
