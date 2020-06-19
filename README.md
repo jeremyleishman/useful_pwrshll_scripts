@@ -22,4 +22,4 @@
 #### `Restart-Computer -ComputerName server1 -Force` to force restart of remote computer
 #### `net localgroup administrators` will pull list of all admin accounts on the computer
 #### `query user server/: server1` will return a list of all logged on users for the specified computer
-#### `get-ubr`
+#### `get-ubr and stuff`
