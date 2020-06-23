@@ -24,3 +24,5 @@
 #### `query user server/: server1` will return a list of all logged on users for the specified computer
 #### `Compress-Archive -LiteralPath <PathToFiles> -DestinationPath <PathToDestination>`
 #### This will zip the selected files and place them in the specified location
+#### `Compress-Archive -Path C:\path\to\file\*.jpg -DestinationPath C:\path\to\archive.zip`
+#### This will zip only .jpg files
