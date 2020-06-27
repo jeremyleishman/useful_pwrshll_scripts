@@ -11,6 +11,8 @@
 ### `Get-Help Get-Service -Online` 
 #### to open a help page online instead of in Powershell
 
+### `Get-Help Get-ChildItem -Detailed`
+
 ### `Get-History`
 #### will pull a list of your PS session (will show as an id)
 ### `Invoke-History -id 24`
