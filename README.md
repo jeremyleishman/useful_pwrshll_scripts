@@ -39,3 +39,7 @@
 
 #### `Expand-Archive -LiteralPath <PathToZipFile> -DestinationPath <PathToDestination>`
 #### This will unzip specified files into the specified location
+
+`Get-Sql (Get-Clipboard)`
+#### will return the contents of your clipboard and return them in the following format
+#### ('server1', 'server2', 'server3')
