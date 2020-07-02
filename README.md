@@ -43,3 +43,7 @@
 `Get-Sql (Get-Clipboard)`
 #### will return the contents of your clipboard and return them in the following format
 #### ('server1', 'server2', 'server3')
+
+`Test-Connection (Get-Clipboard) | Export-Csv C:\temp\spreadsheet1.csv`
+#### this will run the test-connection cmdlet against the servers in your clipboard
+#### and export it to the designated folder
