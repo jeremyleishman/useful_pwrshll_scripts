@@ -47,3 +47,6 @@
 `Test-Connection (Get-Clipboard) | Export-Csv C:\temp\spreadsheet1.csv`
 #### this will run the test-connection cmdlet against the servers in your clipboard
 #### and export it to the designated folder
+
+`GetMac /s Server1 /v`
+#### this will return the verbose mac info for the specified server
