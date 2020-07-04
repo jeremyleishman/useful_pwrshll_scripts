@@ -50,3 +50,24 @@
 
 `GetMac /s Server1 /v`
 #### this will return the verbose mac info for the specified server
+
+`Get-DfsRoot -ComputerName Server1 | Out-Gridview`
+#### This will return (and output in grid format) the results ran
+#### against the specified server with the following info:
+#### Path, Type, Properties, TimetoLiveSec, State & Description
+
+`Get-SmbShare | Export-Csv \\myserver\desktop\new_file.csv`
+#### This will return a list of all smb shares on the host server it is ran on
+#### List will show the Name, ScopeName, Path & Description
+`Get-SmbShare | FL`
+#### to parse into file list view
+
+`Net Share shared_folder$`
+#### This will return info on the specified shared folder
+
+`Get-SmbShareAccess shared_folder$`
+#### This will return a list of the access writes for specified shared folder
+
+`Test-All Server1`
+#### This will return loads of info including IP and OrgUnit for specified server
+
