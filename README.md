@@ -71,3 +71,5 @@
 `Test-All Server1`
 #### This will return loads of info including IP and OrgUnit for specified server
 
+`Test-NetConnection Server1`
+#### This will return the computername, remote address, interface alias & source IP
