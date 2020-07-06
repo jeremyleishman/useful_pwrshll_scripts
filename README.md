@@ -73,3 +73,7 @@
 
 `Test-NetConnection Server1`
 #### This will return the computername, remote address, interface alias & source IP
+
+`New-Item -Path $env:userprofile\Desktop\'my_folder' -ItemType Directory`
+#### This will create a new folder in the specified location
+
