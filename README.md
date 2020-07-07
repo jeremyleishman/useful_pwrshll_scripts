@@ -77,3 +77,19 @@
 `New-Item -Path $env:userprofile\Desktop\'my_folder' -ItemType Directory`
 #### This will create a new folder in the specified location
 
+`Get-ADComputer 'Server1'`
+#### This will return the distinguished name, name, object class
+#### The Object FUID, SamAccountName & SID
+
+`(Get-Acl D:\shared_drive).Access | Out-Gridview`
+#### This will output the NTFS Permissions for the specified folder
+
+`Install-Module -Name GetSTFolderSize`
+#### Run this as Admin
+#### Installs the necessary module to get individual folder sizes
+#### Then you can use the following cmdlet:
+`Get-STFolderSize -Path '\\Server1.mydomain.com\shared_folder$'`
+#### Output will be the specified folder in bytes, megabytes, GB & TB
+#### Pipe the following onto the end to show only in GB:
+`| Select TotalGBytes`
+
