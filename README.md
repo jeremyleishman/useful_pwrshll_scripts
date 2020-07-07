@@ -93,3 +93,6 @@
 #### Pipe the following onto the end to show only in GB:
 `| Select TotalGBytes`
 
+`Invoke-Command -ScriptBlock {(Get-SmbShareAccess 'shared_folder$)} -ComputerName Server1 | Select name,accountname,accessright`
+#### This will run the get-smbshareaccess cmdlet remotely against
+#### the specified server
