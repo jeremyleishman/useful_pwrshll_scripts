@@ -96,3 +96,28 @@
 `Invoke-Command -ScriptBlock {(Get-SmbShareAccess 'shared_folder$)} -ComputerName Server1 | Select name,accountname,accessright`
 #### This will run the get-smbshareaccess cmdlet remotely against
 #### the specified server
+
+`Get-SMBShare`
+#### Will return all smb shares on the host server
+#### showing Name, ScopeName, Path & Description
+
+`Net Share Shared_folder$`
+#### Will return folder info on the specified shared folder
+
+`Get-SmbShareAccess Shared_folder$`
+#### Will return a list of who has access to the specified shared folder
+#### will list what type of access each account has (read/write)
+
+`Get-WinVer`
+#### Will return which windows version the host system is running
+#### examples of use below:
+`Get-WinVer (get-clipboard)`
+`Get-WinVer Server1`
+
+`Invoke-Command -ComputerName $using:fqdn -ScriptBlock {((Get-WmiObject -class Win32_OperatingSystem).Caption)}`
+#### This will also return which windows version is running
+
+`Invoke-Command -ComputerName $using:fqdn -ScriptBlock {)Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion").UBR}`
+#### Will list the UBR number for the specified server
+#### Used to check patch compliance
+
