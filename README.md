@@ -123,4 +123,11 @@
 
 `$serverName = $serverName.Trim().ToUpper()`
 #### This will strip out white space and set to UPPERCASE
-----------------------------
+
+`Get-STDotNetVersion -ComputerName Server1,Server2,Server3 -PSRemoting`
+#### Will output which version of .net is installed on each server
+#### that is passed in as an argument
+
+`md C:\Users\Me\Desktop\MyFolder`
+#### This will create a new folder in the specified location
+
