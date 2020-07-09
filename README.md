@@ -121,3 +121,6 @@
 #### Will list the UBR number for the specified server
 #### Used to check patch compliance
 
+`$serverName = $serverName.Trim().ToUpper()`
+#### This will strip out white space and set to UPPERCASE
+----------------------------
