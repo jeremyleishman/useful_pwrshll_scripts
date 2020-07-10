@@ -131,3 +131,6 @@
 `md C:\Users\Me\Desktop\MyFolder`
 #### This will create a new folder in the specified location
 
+`notepad C:\Users\Me\Desktop\mytxtfile.txt`
+#### This will open the notepad program and specified txt file
+
