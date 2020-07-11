@@ -134,3 +134,5 @@
 `notepad C:\Users\Me\Desktop\mytxtfile.txt`
 #### This will open the notepad program and specified txt file
 
+`Move-Item C:\CopiedFolder -Destination C:\MovedFolder -Verbose`
+#### Will move specified folder to specified destination
