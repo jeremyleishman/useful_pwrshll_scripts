@@ -136,3 +136,6 @@
 
 `Move-Item C:\CopiedFolder -Destination C:\MovedFolder -Verbose`
 #### Will move specified folder to specified destination
+
+`Rename-Item C:\MovedFolder -NewName C:\RenamedFolder`
+#### This will rename the specified folder to the new specified name
