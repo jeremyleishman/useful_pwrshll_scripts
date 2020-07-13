@@ -139,3 +139,7 @@
 
 `Rename-Item C:\MovedFolder -NewName C:\RenamedFolder`
 #### This will rename the specified folder to the new specified name
+
+`Query User /Server:server1`
+#### for listing who is logged on to the specified server
+#### will list the username,sessionname,ID,state,idletime & logintime for each user
