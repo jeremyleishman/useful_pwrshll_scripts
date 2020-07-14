@@ -143,3 +143,6 @@
 `Query User /Server:server1`
 #### for listing who is logged on to the specified server
 #### will list the username,sessionname,ID,state,idletime & logintime for each user
+
+`Restart-Computer -Confirm`
+#### This will restart your computer upon confirmation from user
