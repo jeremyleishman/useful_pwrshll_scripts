@@ -149,3 +149,6 @@
 
 `Stop-Comuter -ComputerName Server1 -Force`
 #### This will force the shutdown of the specified remote server
+
+`Get-CimInstance -ClassName win32_operatingsystem | select csname,lastbootuptime`
+#### This will return the last boot time of the system it is run on
