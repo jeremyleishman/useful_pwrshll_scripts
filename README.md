@@ -146,3 +146,6 @@
 
 `Restart-Computer -Confirm`
 #### This will restart your computer upon confirmation from user
+
+`Stop-Comuter -ComputerName Server1 -Force`
+#### This will force the shutdown of the specified remote server
