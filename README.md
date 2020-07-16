@@ -152,3 +152,6 @@
 
 `Get-CimInstance -ClassName win32_operatingsystem | select csname,lastbootuptime`
 #### This will return the last boot time of the system it is run on
+
+`RoboCopy.exe \\Server1\desktop\folder '\\Server6\desktop\folder'`
+#### This will copy the specified folder onto the specified server
