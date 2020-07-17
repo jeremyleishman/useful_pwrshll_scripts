@@ -3,6 +3,13 @@
 ## Useful powershell scripts for working with Microsoft servers via PowerShell.
 
 ## This repo contains random cmdlets and small scripts that I've used on various projects.
+## Some of the Windows CLI syntax work in Powershell
+## Examples:
+`Ipconfig` `Ping` `CD` `Dir` `Clear` `Help`
+## These are actually aliases or substitutes for real Powershell comdlets
+## Some Linux CLI commands will work as well
+## Examples:
+`ls` `history`
 
 ### `Get-Help Get`
 #### This cmdlet will return a very long list of all the Get- cmdlets
