@@ -1,12 +1,12 @@
 # Useful Powershell Scripts for Windows OS
-
+-------
 ## Useful powershell scripts for working with Microsoft servers via PowerShell.
-
+-------
 ## This repo contains random cmdlets and small scripts that I've used on various projects.
 ## Some of the Windows CLI syntax work in Powershell
 ## Examples:
 `Ipconfig` `Ping` `CD` `Dir` `Clear` `Help`
-## These are actually aliases or substitutes for real Powershell comdlets
+## These are actually aliases or substitutes for real Powershell cmdlets
 ## Some Linux CLI commands will work as well
 ## Examples:
 `ls` `history`
