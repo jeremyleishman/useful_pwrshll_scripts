@@ -51,19 +51,19 @@
 `Get-Sql (Get-Clipboard)`
 #### will return the contents of your clipboard and return them in the following format
 #### ('server1', 'server2', 'server3')
-
+--- 
 `Test-Connection (Get-Clipboard) | Export-Csv C:\temp\spreadsheet1.csv`
 #### this will run the test-connection cmdlet against the servers in your clipboard
 #### and export it to the designated folder
-
+---
 `GetMac /s Server1 /v`
 #### this will return the verbose mac info for the specified server
-
+---
 `Get-DfsRoot -ComputerName Server1 | Out-Gridview`
 #### This will return (and output in grid format) the results ran
 #### against the specified server with the following info:
 #### Path, Type, Properties, TimetoLiveSec, State & Description
-
+---
 `Get-SmbShare | Export-Csv \\myserver\desktop\new_file.csv`
 #### This will return a list of all smb shares on the host server it is ran on
 #### List will show the Name, ScopeName, Path & Description
