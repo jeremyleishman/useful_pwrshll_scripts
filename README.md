@@ -69,29 +69,29 @@
 #### List will show the Name, ScopeName, Path & Description
 `Get-SmbShare | FL`
 #### to parse into file list view
-
+---
 `Net Share shared_folder$`
 #### This will return info on the specified shared folder
-
+---
 `Get-SmbShareAccess shared_folder$`
 #### This will return a list of the access writes for specified shared folder
-
+---
 `Test-All Server1`
 #### This will return loads of info including IP and OrgUnit for specified server
-
+---
 `Test-NetConnection Server1`
 #### This will return the computername, remote address, interface alias & source IP
 
 `New-Item -Path $env:userprofile\Desktop\'my_folder' -ItemType Directory`
 #### This will create a new folder in the specified location
-
+---
 `Get-ADComputer 'Server1'`
 #### This will return the distinguished name, name, object class
 #### The Object FUID, SamAccountName & SID
-
+---
 `(Get-Acl D:\shared_drive).Access | Out-Gridview`
 #### This will output the NTFS Permissions for the specified folder
-
+---
 `Install-Module -Name GetSTFolderSize`
 #### Run this as Admin
 #### Installs the necessary module to get individual folder sizes
