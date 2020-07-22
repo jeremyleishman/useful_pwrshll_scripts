@@ -100,66 +100,67 @@
 #### Output will be the specified folder in bytes, megabytes, GB & TB
 #### Pipe the following onto the end to show only in GB:
 `| Select TotalGBytes`
-
+---
 `Invoke-Command -ScriptBlock {(Get-SmbShareAccess 'shared_folder$)} -ComputerName Server1 | Select name,accountname,accessright`
 #### This will run the get-smbshareaccess cmdlet remotely against
 #### the specified server
-
+---
 `Get-SMBShare`
 #### Will return all smb shares on the host server
 #### showing Name, ScopeName, Path & Description
-
+---
 `Net Share Shared_folder$`
 #### Will return folder info on the specified shared folder
-
+---
 `Get-SmbShareAccess Shared_folder$`
 #### Will return a list of who has access to the specified shared folder
 #### will list what type of access each account has (read/write)
-
+---
 `Get-WinVer`
 #### Will return which windows version the host system is running
 #### examples of use below:
 `Get-WinVer (get-clipboard)`
 `Get-WinVer Server1`
-
+---
 `Invoke-Command -ComputerName $using:fqdn -ScriptBlock {((Get-WmiObject -class Win32_OperatingSystem).Caption)}`
 #### This will also return which windows version is running
-
+---
 `Invoke-Command -ComputerName $using:fqdn -ScriptBlock {)Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion").UBR}`
 #### Will list the UBR number for the specified server
 #### Used to check patch compliance
-
+---
 `$serverName = $serverName.Trim().ToUpper()`
 #### This will strip out white space and set to UPPERCASE
-
+---
 `Get-STDotNetVersion -ComputerName Server1,Server2,Server3 -PSRemoting`
 #### Will output which version of .net is installed on each server
 #### that is passed in as an argument
-
+---
 `md C:\Users\Me\Desktop\MyFolder`
 #### This will create a new folder in the specified location
-
+---
 `notepad C:\Users\Me\Desktop\mytxtfile.txt`
 #### This will open the notepad program and specified txt file
-
+---
 `Move-Item C:\CopiedFolder -Destination C:\MovedFolder -Verbose`
 #### Will move specified folder to specified destination
-
+---
 `Rename-Item C:\MovedFolder -NewName C:\RenamedFolder`
 #### This will rename the specified folder to the new specified name
-
+---
 `Query User /Server:server1`
 #### for listing who is logged on to the specified server
 #### will list the username,sessionname,ID,state,idletime & logintime for each user
-
+---
 `Restart-Computer -Confirm`
 #### This will restart your computer upon confirmation from user
-
+---
 `Stop-Computer -ComputerName Server1 -Force`
 #### This will force the shutdown of the specified remote server
-
+---
 `Get-CimInstance -ClassName win32_operatingsystem | select csname,lastbootuptime`
 #### This will return the last boot time of the system it is run on
-
+---
 `RoboCopy.exe \\Server1\desktop\folder '\\Server6\desktop\folder'`
 #### This will copy the specified folder onto the specified server
+---
