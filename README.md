@@ -169,3 +169,7 @@
 `RoboCopy.exe \\Server1\desktop\folder '\\Server6\desktop\folder'`
 #### This will copy the specified folder onto the specified server
 ---
+
+`Get-WindowsUpdateLog`
+#### This will produce a log of all windows updates
+----
