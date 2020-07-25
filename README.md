@@ -173,3 +173,7 @@
 `Get-WindowsUpdateLog`
 #### This will produce a log of all windows updates
 ----
+----
+## Basic PowerShell Commands
+#### Cmdlet: Commands built into shell written in .NET
+#### Cunctions: Commands writen in PowerShell language
