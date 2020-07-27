@@ -193,3 +193,10 @@
 #### F7: Command history in a window
 #### Tab / Shift-Tab: Command line completion
 ---
+### Variables
+#### $var = "string": Assign variable
+#### $a,$b = 'a','b': Assign multiple variables
+#### $a,$b = $b,$a: Flip variables
+#### $var=[int]5: Strongly typed variables
+----
+### Help
