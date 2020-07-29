@@ -26,3 +26,10 @@
 #### $var=[int]5: Strongly typed variables
 ----
 ### Help
+#### Get-Command: Get all commands
+#### Get-Command -Module RGHS: Get all commands in RGHS module
+#### Get-Command Get-p*: Get all commands starting with get-p
+#### Get-help get-process: Get help for command
+#### Get-Process | Get-Member: Get members of the object
+#### Get-Process | Format-list -properties *: Get-Process as list with all properties
+----
