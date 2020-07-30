@@ -33,3 +33,10 @@
 #### Get-Process | Get-Member: Get members of the object
 #### Get-Process | Format-list -properties *: Get-Process as list with all properties
 ----
+### Scripts
+#### Set-ExecutionPolicy -ExecutionPolicy: Bypass Set execution policy to allow all scripts
+#### ."\\c-is-ts-91\c$\scripts\script.ps1": Run script.ps1 script in current scope
+#### &"\\c-is-ts-91\c$\scripts\script.ps1": Run script.ps1 script in script scope
+#### .\script.ps1: Run script.ps1 in script scope
+#### $profile: Your personal profile that runs at launch
+----
