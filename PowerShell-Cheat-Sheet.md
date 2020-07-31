@@ -40,3 +40,13 @@
 #### .\script.ps1: Run script.ps1 in script scope
 #### $profile: Your personal profile that runs at launch
 ----
+### Import, Export, Convert
+#### Export-CliXML
+#### Import-CliXML
+#### ConvertTo-XML
+#### ConvertTo-HTML
+#### Export-CSV
+#### Import-CSV
+#### ConvertTo-CSV
+#### ConvertFrom-CSV
+----
