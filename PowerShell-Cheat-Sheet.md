@@ -50,3 +50,18 @@
 #### ConvertTo-CSV
 #### ConvertFrom-CSV
 ----
+### Flow Control
+#### If(){} Else{}
+#### While(){}
+#### For($i=0; $i-lt 10; $i++){}
+#### Foreach($file in dir C:\){$file.name}
+#### 1..10 | foreach{$_}
+----
+### Comments, Escape Characters
+#### Comment: single line comment
+#### <#comment#>: multiple line comment
+#### "'"test'"": Escape character'
+#### 't: Tab
+#### 'n: New line
+#### ': Line continue
+----
