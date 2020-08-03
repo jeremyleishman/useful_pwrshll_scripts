@@ -69,3 +69,5 @@
 #### -Confirm: Prompt whether to take action
 #### -WhatIf: Displays what command would do
 ----
+### Assignment, Logical, Comparison
+#### =, +=, -=, ++, --: Assign values to variables
