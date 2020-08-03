@@ -65,3 +65,7 @@
 #### 'n: New line
 #### ': Line continue
 ----
+### Parameters
+#### -Confirm: Prompt whether to take action
+#### -WhatIf: Displays what command would do
+----
