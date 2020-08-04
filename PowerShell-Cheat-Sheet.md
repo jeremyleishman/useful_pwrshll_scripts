@@ -71,3 +71,4 @@
 ----
 ### Assignment, Logical, Comparison
 #### =, +=, -=, ++, --: Assign values to variables
+#### -and, -or, -not,!: Connect expressions / statements
