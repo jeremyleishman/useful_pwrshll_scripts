@@ -72,3 +72,7 @@
 ### Assignment, Logical, Comparison
 #### =, +=, -=, ++, --: Assign values to variables
 #### -and, -or, -not,!: Connect expressions / statements
+#### -eq, -ne: Equal, not equal
+#### -gt, -ge: Greater than, greater than or equal
+#### -lt, -le: Less than, less than or equal
+#### -replace: "Hi" -replace "H","P" (will return "Pi")
