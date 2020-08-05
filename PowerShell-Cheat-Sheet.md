@@ -76,3 +76,8 @@
 #### -gt, -ge: Greater than, greater than or equal
 #### -lt, -le: Less than, less than or equal
 #### -replace: "Hi" -replace "H","P" (will return "Pi")
+#### -match, -notmatch: Regular expression match
+#### -like, -notlike: Wildcard matching
+#### -contains, -notcontains: Check if value in array
+#### -in, -notin: Reverse of contains, notcontains
+----
