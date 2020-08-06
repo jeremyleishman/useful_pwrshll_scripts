@@ -81,3 +81,10 @@
 #### -contains, -notcontains: Check if value in array
 #### -in, -notin: Reverse of contains, notcontains
 ----
+### Common cmdlets
+#### cd, chdir, sl: Set-Location
+#### cat, gc, type: Get-Content
+#### ac: Add-Content
+#### sc: Set-Content
+#### copy, cp, cpi: Copy-Item
+#### del, erase, rd, ri, rm, rmdir: Remove-Item
