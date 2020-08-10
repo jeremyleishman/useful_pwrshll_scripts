@@ -88,3 +88,8 @@
 #### sc: Set-Content
 #### copy, cp, cpi: Copy-Item
 #### del, erase, rd, ri, rm, rmdir: Remove-Item
+#### mi, move, mv: Move-Item
+#### si: Set-Item
+#### ni: New-Item
+#### sleep: Start-Sleep
+#### sajb: Start-Job
