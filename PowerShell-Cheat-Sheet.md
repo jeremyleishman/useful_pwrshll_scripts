@@ -93,3 +93,11 @@
 #### ni: New-Item
 #### sleep: Start-Sleep
 #### sajb: Start-Job
+#### compare, diff: Compare-Object
+#### group: Group-Object
+#### curl, iwr, wget: Invoke-WebRequest
+#### measure: Measure-Object
+#### nal: New-Alias
+#### rvpa: Resolve-Path
+#### rujb: Resume-Job
+#### set, sv: Set-Variable
