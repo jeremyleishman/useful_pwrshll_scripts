@@ -110,3 +110,9 @@
 #### ?, where: Where-Object
 #### echo, write: Write-Output
 ----
+### Common Aliases
+#### gcm: Get-Command
+#### foreach, %: Foreach-Object
+#### sort: Sort-Object
+#### where, ?: Where-Object
+#### diff, compare: Compare-Object
