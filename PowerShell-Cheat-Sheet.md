@@ -101,3 +101,12 @@
 #### rvpa: Resolve-Path
 #### rujb: Resume-Job
 #### set, sv: Set-Variable
+#### shcm: Show-Command
+#### sort: Sort-Object
+#### sasv: Start-Service
+#### saps, start: Start-Process
+#### sujb: Suspend-Job
+#### wjb: Wait-Job
+#### ?, where: Where-Object
+#### echo, write: Write-Output
+----
