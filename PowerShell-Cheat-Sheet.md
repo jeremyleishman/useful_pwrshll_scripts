@@ -116,3 +116,10 @@
 #### sort: Sort-Object
 #### where, ?: Where-Object
 #### diff, compare: Compare-Object
+#### dir, ls, gci: Get-ChildItem
+#### gi: Get-Item
+#### copy, cp, cpi: Copy-Item
+#### move, mv, mi: Move-Item
+#### del, rm: Remove-Item
+#### rni, ren: Rename-Item
+#### fFt: Format-Table
