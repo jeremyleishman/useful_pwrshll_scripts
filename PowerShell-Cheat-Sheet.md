@@ -123,3 +123,6 @@
 #### del, rm: Remove-Item
 #### rni, ren: Rename-Item
 #### fFt: Format-Table
+#### fl: Format-List
+#### gcim: Get-CIMinstance
+#### cat, gc, type: Get-Content
