@@ -126,3 +126,15 @@
 #### fl: Format-List
 #### gcim: Get-CIMinstance
 #### cat, gc, type: Get-Content
+#### sc: Set-Content
+#### h, history, ghy: Get-History
+#### ihy, r: Invoke-History
+#### gp: Get-ItemProperty
+#### sp: Set-ItemProperty
+#### pwd, gl: Get-Location
+#### gm: Get-Member
+#### sls: Select-String
+#### cd, chdir, sl: Set-Location
+#### cls, clear: Clear-Host
+----
+### Arrays Objects
