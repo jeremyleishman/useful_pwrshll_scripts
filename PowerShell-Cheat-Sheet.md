@@ -138,3 +138,6 @@
 #### cls, clear: Clear-Host
 ----
 ### Arrays Objects
+#### $arr = "a","b": Array of strings
+#### $arr = @(): Empty array
+#### $arr[-1..-1]: Last three array elements
