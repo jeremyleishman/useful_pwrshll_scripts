@@ -140,4 +140,13 @@
 ### Arrays Objects
 #### $arr = "a","b": Array of strings
 #### $arr = @(): Empty array
-#### $arr[-1..-1]: Last three array elements
+#### $arr[5]: Sixth array element
+#### $arr[-3..-1]: Last three array elements
+#### $arr[1,4+6..9]: Elements at index, 1, 4,6-9
+#### $arr[1] += 200: Add to array item value
+#### $z - $arA + $arB: Two arrays into single array
+#### [pscustomobject]@{x=1;z=2}: Create custom object
+#### (Get-Date).Date: Date property of an object
+----
+### Writing output and reading
+#### 
