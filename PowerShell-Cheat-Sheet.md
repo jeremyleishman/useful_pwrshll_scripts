@@ -149,4 +149,8 @@
 #### (Get-Date).Date: Date property of an object
 ----
 ### Writing output and reading
-#### 
+#### "This displays a string": String is written directly to output
+#### Write-Host "color" -ForegroundColor Red -NoNewLine: String with colors, no new line at end
+#### $age = Read-host "Please enter your age":Set $age variable to input from user
+#### $pwd = Read-host "Please enter your password" -asSecureString: Read in $pwd as secure string
+#### Clear-Host: Clear console
